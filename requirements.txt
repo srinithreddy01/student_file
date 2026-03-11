@@ -1,0 +1,6 @@
+flask
+flask-cors
+bcrypt
+psycopg2-binary
+requests
+werkzeug
