@@ -3,11 +3,5 @@
   "outputDirectory": "frontend/build",
   "rewrites": [
     { "source": "/api/(.*)", "destination": "/api/index" }
-  ],
-  "functions": {
-    "api/index.py": {
-      "runtime": "@vercel/python@latest",
-      "maxDuration": 30
-    }
-  }
+  ]
 }
